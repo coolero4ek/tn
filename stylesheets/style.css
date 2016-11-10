@@ -1,0 +1,53 @@
+.tn-topslider-wrap {
+    background-color: #9AC1EA;
+}
+
+.tn-topslider-sel {
+    background-color: #FFBF17;
+}
+
+header {
+    color: #ffffff;
+    background-color: #9AC1EA;
+}
+
+.tn-menu-el-href-active {
+    cursor: none;
+    font-weight: bold;
+}
+
+.tn-contact-phone-num {
+    font-weight: bold;
+}
+
+.tn-btn-wrap {
+    width: 190px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border: solid;
+    border-width: 3px;
+}
+
+.tn-btn {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tn-services-wrap {
+    background-color: #388CC8;
+}
+
+.tn-servicetype {
+    color: #ffffff;
+    background-color: #27628C;
+}
+
+.tn-science-wrap {
+    color: #ffffff;
+    background-color: #27628C;
+}
+
+.tn-cnt-wrap {
+    width: 1024px;
+}
