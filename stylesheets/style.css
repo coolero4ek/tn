@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.tn-clear {
+    clear: both;
+    float: none;
+}
+
 .tn-topslider-wrap {
     background-color: #9AC1EA;
 }
@@ -6,7 +21,12 @@
     background-color: #FFBF17;
 }
 
+.tn-bg-wrap {
+    width: 100%;
+}
+
 header {
+    height: 100px;
     color: #ffffff;
     background-color: #9AC1EA;
 }
@@ -32,6 +52,7 @@ header {
 .tn-btn {
     font-weight: bold;
     text-decoration: none;
+    color: #ffffff;
 }
 
 .tn-services-wrap {
@@ -50,4 +71,110 @@ header {
 
 .tn-cnt-wrap {
     width: 1024px;
+}
+
+.tn-collective-photo {
+    width: 100%;
+}
+
+.tn-topslider-pic {
+    width: 100%;
+}
+
+.tn-menu-el-href {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tn-logo-wrap {
+    float: left;
+}
+
+.tn-menu-el {
+    padding-top: 35px;
+    float: left;
+}
+
+.tn-header-contacts {
+    float: left;
+    padding-top: 35px;
+}
+
+.tn-contact-phone-part + .tn-contact-phone-part {
+    margin-left: 5px;
+}
+
+.tn-languages-sel {
+    padding-top: 35px;
+}
+
+.tn-about-title-wrap, .tn-collective-title-wrap, .tn-news-title-wrap, .tn-partners-title-wrap, .tn-clients-title-wrap {
+    text-align: center;
+}
+
+.tn-about-text {
+    column-count: 2;
+    column-gap: 120px;
+}
+
+.tn-servicetype-title-wrap {
+    text-align: center;
+}
+
+.tn-servicetype {
+    float: left;
+    width: 370px;
+    height: 560px;
+}
+
+.tn-servicetype + .tn-servicetype {
+    margin-left: 25px;
+}
+
+.tn-servicetype-logo-wrap {
+    text-align: center;
+}
+
+.tn-servicetype-more-wrap {
+    text-align: center;
+}
+
+.tn-logo-wrap {
+    margin-right: 75px;
+}
+
+
+
+.tn-menu-el + .tn-menu-el {
+    margin-left: 30px;
+}
+
+.tn-header-contacts {
+    margin-left: 50px;
+    margin-right: 45px;
+}
+
+.tn-contact-phone {
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.tn-language-href {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tn-servicetype-more-href {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tn-servicetype-services {
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ffffff;
+}
+
+.tn-servicetype-services-el:before {
+    content: "- ";
 }
