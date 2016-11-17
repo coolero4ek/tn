@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-family: HelveticaNeueCyr;
 }
 
 ul {
@@ -32,11 +33,6 @@ header {
     color: #ffffff;
 }
 
-.tn-menu-el-href-active {
-    cursor: none;
-    font-weight: bold;
-}
-
 .tn-contact-phone-num {
     font-weight: bold;
 }
@@ -51,7 +47,7 @@ header {
 }
 
 .tn-btn {
-    font-weight: bold;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -59,13 +55,18 @@ header {
     color: #ffffff;
 }
 
+.tn-feedback-btn-wrap {
+    border-color:#ffbf17 ;
+}
+
 .tn-collective-vac-btn {
     color: #3877C7;
-    border-color: #3877C7;
 }
 
 .tn-services-wrap {
     background-color: #388CC8;
+    padding-top: 50px;
+    padding-bottom: 65px;
 }
 
 .tn-servicetype {
@@ -83,9 +84,8 @@ header {
     margin: 0 auto;
 }
 
-.tn-collective-photo {
-    height: 630px;
-    width: 100%;
+.tn-collective-photo-wrap {
+    text-align: center;
 }
 
 .tn-topslider-pic {
@@ -93,8 +93,30 @@ header {
 }
 
 .tn-menu-el-href {
+    font-weight: 100;
+    font-size: 20px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.tn-menu-el-href-active {
+    cursor: default;
+    font-weight: 300;
+}
+
+.tn-language {
+    float: left;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.tn-language + .tn-language {
+    margin-left: 10px;
+}
+
+.tn-language-active {
+    font-weight: 700;
+    cursor: default;
 }
 
 .tn-logo-wrap {
@@ -109,6 +131,15 @@ header {
 .tn-header-contacts {
     float: left;
     padding-top: 35px;
+}
+
+.tn-contact-phone-part {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.tn-contact-phone-part-bold {
+    font-weight: 700;
 }
 
 .tn-contact-phone-part + .tn-contact-phone-part {
@@ -128,6 +159,8 @@ header {
 }
 
 .tn-about-text {
+    font-weight: 300;
+    font-size: 18px;
     margin-top: 60px;
     text-align: justify;
     column-count: 2;
@@ -150,6 +183,8 @@ header {
 }
 
 .tn-servicetype-logo-wrap {
+    margin-top: 35px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -160,8 +195,6 @@ header {
 .tn-logo-wrap {
     margin-right: 75px;
 }
-
-
 
 .tn-menu-el + .tn-menu-el {
     margin-left: 30px;
@@ -183,18 +216,26 @@ header {
 }
 
 .tn-servicetype-more-href {
+    font-size: 18px;
+    font-weight: 700;
     text-decoration: none;
     color: #ffffff;
 }
 
 .tn-servicetype-services {
     width: 300px;
-    margin: 0 auto;
+    margin: 30px auto 45px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #ffffff;
 }
 
 .tn-servicetype-services-el:before {
     content: "- ";
+}
+
+.tn-servicetype-services-el {
+    font-weight: 100;
+    font-size: 18px;
 }
 
 .tn-partners, .tn-clients {
@@ -206,14 +247,6 @@ header {
     float: left;
 }
 
-.tn-contact-phone {
-    float: left;
-}
-
-footer {
-    background-color: #102A81;
-}
-
 .tn-news-wrap {
     background-image: url(../pics/news.png);
 }
@@ -221,8 +254,7 @@ footer {
 .tn-news-el {
     width: 370px;
     float: left;
-    background-color: rgba(200, 205, 224, 0.5);
-    background-color: #C8CDE0;
+    background-color: rgba(200, 205, 224, 0.75);
 }
 
 .tn-news-el + .tn-news-el {
@@ -230,11 +262,15 @@ footer {
 }
 
 .tn-news-el-href {
+    font-size: 24px;
+    font-weight: 300;
     text-decoration: none;
     color: #0E2980;
 }
 
 .tn-news-el-date {
+    font-size: 18px;
+    font-weight: 300;
     text-align: center;
     padding: 15px 0;
     background-color: #388CC8;
@@ -250,11 +286,31 @@ footer {
     position: relative;
     bottom: 100px;
     margin: 0 auto;
+    border-color: #3877C7;
 }
 
-.tn-section-header , .tn-subsection-header {
-    font-weight: bold;
+.tn-section-header {
+    font-weight: 700;
+    font-size: 47px;
 }
+
+.tn-subsection-header {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.tn-collective-wrap {
+    height: 595px;
+    position: relative;
+    top: -52px;
+}
+
+.tn-news-title-wrap {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+
 .tn-news-el-href {
     font-weight: bold;
 }
@@ -267,9 +323,18 @@ footer {
     margin-left: 35px;
     margin-bottom: 40px;
     height: 155px;
+    font-size: 18px;
+    font-weight: 300;
 }
 
-.tn-science-wrap {
+.tn-news-allnews-btn-wrap {
+    margin: 50px auto 0;
+    border-color: #ffffff;
+}
+
+.tn-science-logo-title-wrap {
+    text-align: center;
+    margin-top: 25px;
     border: solid #ffffff 6px;
 }
 
@@ -286,12 +351,20 @@ footer {
     float: left;
 }
 
-.tn-science-activities-el {
-    float: left;
-}
-
 .tn-science-activities-el:before {
     content: "- ";
+}
+
+.tn-science-activities-el {
+    font-size: 18px;
+    font-weight: 100;
+    width: 250px;
+    float: left;
+    text-align: left;
+}
+
+.tn-science-activities-el + .tn-science-activities-el {
+    margin-left: 100px;
 }
 
 .tn-university-partnership-wrap {
@@ -304,5 +377,33 @@ footer {
 }
 
 .tn-university-logo-wrap {
+    float: left;
+}
+
+footer {
+    height: 100px;
+    background-color: #102A81;
+}
+
+.tn-copyright-address-wrap {
+    font-size: 18px;
+    font-weight: 100;
+    color: #ffffff;
+    float: left;
+    line-height: 40px;
+    margin-right: 100px;
+}
+
+.tn-footer-contacts {
+    color: #ffffff;
+}
+
+.tn-contact-phone-footer {
+    float: left;
+    line-height: 40px;
+    margin-right: 15px;
+}
+
+.tn-feedback-btn-wrap-footer {
     float: left;
 }
