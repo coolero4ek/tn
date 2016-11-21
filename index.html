@@ -2,23 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&amp;subset=cyrillic"
+          rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-    <link rel="stylesheet" href="stylesheets/fonts.css" type="text/css"/>
     <title>tn</title>
 </head>
 <body>
 <div class="tn-page-wrap">
     <div class="tn-topslider-wrap tn-bg-wrap">
-            <ul class="tn-topslider">
-                <li class="tn-topslider-el tn-topslider-el-active"><img src="pics/slider.png" class="tn-topslider-pic"/>
-                </li>
-            </ul>
-            <ul class="tn-topslider-sel">
-                <li class="tn-topslider-sel-el"></li>
-                <li class="tn-topslider-sel-el"></li>
-                <li class="tn-topslider-sel-el"></li>
-                <li class="tn-topslider-sel-el tn-topslider-sel-el-active"></li>
-            </ul>
+        <ul class="tn-topslider">
+            <li class="tn-topslider-el tn-topslider-el-active"><img src="pics/slider.png" class="tn-topslider-pic"/>
+            </li>
+        </ul>
+    </div>
+    <div class="tn-topslider-sel-wrap tn-bg-wrap">
+        <ul class="tn-topslider-sel">
+            <li class="tn-topslider-sel-el"></li>
+            <li class="tn-topslider-sel-el"></li>
+            <li class="tn-topslider-sel-el"></li>
+            <li class="tn-topslider-sel-el tn-topslider-sel-el-active"></li>
+        </ul>
     </div>
     <header class="tn-bg-wrap">
         <div class="tn-cnt-wrap">
@@ -26,11 +29,12 @@
                 <img src="pics/logo.png" class="tn-logo"/>
             </div>
             <ul class="tn-menu">
-                <li class="tn-menu-el"><a href="#" class="tn-menu-el-href tn-menu-el-href-active">Главная</a></li>
-                <li class="tn-menu-el"><a href="#" class="tn-menu-el-href">О компании</a></li>
-                <li class="tn-menu-el"><a href="#" class="tn-menu-el-href">Клиенты</a></li>
-                <li class="tn-menu-el"><a href="#" class="tn-menu-el-href">Услуги</a></li>
-                <li class="tn-menu-el"><a href="#" class="tn-menu-el-href">Контакты</a></li>
+                <li class="tn-menu-el"><a name="top" href="#top"
+                                          class="tn-menu-el-href tn-menu-el-href-active">Главная</a></li>
+                <li class="tn-menu-el"><a href="#about" class="tn-menu-el-href">О компании</a></li>
+                <li class="tn-menu-el"><a href="#clients" class="tn-menu-el-href">Клиенты</a></li>
+                <li class="tn-menu-el"><a href="#services" class="tn-menu-el-href">Услуги</a></li>
+                <li class="tn-menu-el"><a href="#contacts" class="tn-menu-el-href">Контакты</a></li>
             </ul>
             <div class="tn-header-contacts">
                 <div class="tn-contact-phone tn-contact-phone-header">
@@ -50,6 +54,7 @@
     <div class="tn-about-wrap tn-bg-wrap">
         <div class="tn-cnt-wrap">
             <div class="tn-about-title-wrap">
+                <a name="about"></a>
                 <h2 class="tn-section-header">О компании</h2>
             </div>
             <div class="tn-about-text">
@@ -65,6 +70,7 @@
     </div>
     <div class="tn-services-wrap tn-bg-wrap">
         <div class="tn-cnt-wrap">
+            <a name="services"></a>
             <div class="tn-servicetypes">
                 <div class="tn-servicetype">
                     <div class="tn-servicetype-logo-wrap"><img src="pics/rcm.png" class="tn-servicetype-logo"/></div>
@@ -118,43 +124,45 @@
                 <div class="tn-clear"></div>
             </div>
             <div class="tn-science-wrap">
-                <div class="tn-science-logo-title-wrap">
-                    <div class="tn-science-logo-header-wrap">
-                        <div class="tn-science-logo-wrap">
-                            <img src="pics/science.png" class="tn-science-logo"/>
-                        </div>
-                        <div class="tn-science-title-wrap"><h3 class="tn-subsection-header">Научно-исследовательская деятельность</h3></div>
+                <div class="tn-science-logo-header-wrap">
+                    <div class="tn-science-logo-wrap">
+                        <img src="pics/science.png" class="tn-science-logo"/>
                     </div>
-                    <ul class="tn-science-activities">
-                        <li class="tn-science-activities-el">Обработка графических и акустических сигналов</li>
-                        <li class="tn-science-activities-el">Создание лабораторий инноваций</li>
-                        <li class="tn-science-activities-el">Разработка интеллектуальных и советующих систем</li>
-                        <div class="tn-clear"></div>
-                    </ul>
-                    <div class="tn-university-partnership-wrap">
-                        <div class="tn-university-partnership-title">
-                            Сотрудничество с вузами НИУ БелГУ и БГТУ им. Шухова
-                        </div>
-                        <div class="tn-university-logo-wrap"><img src="pics/bgu-white.png" class="tn-university-logo"/>
-                        </div>
-                        <div class="tn-university-logo-wrap"><img src="pics/bstu-white.png" class="tn-university-logo"/>
-                        </div>
-                        <div class="tn-clear"></div>
+                    <div class="tn-science-title-wrap"><h3 class="tn-subsection-header">Научно-исследовательская
+                        деятельность</h3></div>
+                </div>
+                <ul class="tn-science-activities">
+                    <li class="tn-science-activities-el">Обработка графических и акустических сигналов</li>
+                    <li class="tn-science-activities-el">Создание лабораторий инноваций</li>
+                    <li class="tn-science-activities-el">Разработка интеллектуальных и советующих систем</li>
+                    <div class="tn-clear"></div>
+                </ul>
+                <div class="tn-university-partnership-wrap">
+                    <div class="tn-university-partnership-title">
+                        Сотрудничество с вузами НИУ БелГУ и БГТУ им. Шухова
                     </div>
+                    <div class="tn-university-logo-wrap"><img src="pics/bgu-white.png" class="tn-university-logo"/>
+                    </div>
+                    <div class="tn-university-logo-wrap"><img src="pics/bstu-white.png" class="tn-university-logo"/>
+                    </div>
+                    <div class="tn-clear"></div>
                 </div>
             </div>
         </div>
     </div>
     <div class="tn-collective-wrap tn-bg-wrap">
-            <div class="tn-collective-title-wrap">
-                <h2  class="tn-section-header">Коллектив</h2>
-            </div>
-            <div class="tn-collective-photo-wrap">
-                <img src="pics/collective.jpg" class="tn-collective-photo"/>
-            </div>
-            <div class="tn-collective-vac-btn-wrap tn-btn-wrap">
-                <a href="#" class="tn-collective-vac-btn tn-btn">ВАКАНСИИ</a>
-            </div>
+        <div class="tn-collective-background-photo-wrap">
+            <img src="pics/collective-background.jpg" class="tn-collective-background-photo-pic"/>
+        </div>
+        <div class="tn-collective-title-wrap">
+            <h2 class="tn-section-header">Коллектив</h2>
+        </div>
+        <div class="tn-collective-photo-wrap">
+            <img src="pics/collective.jpg" class="tn-collective-photo-pic"/>
+        </div>
+        <div class="tn-collective-vac-btn-wrap tn-btn-wrap">
+            <a href="#" class="tn-collective-vac-btn tn-btn">ВАКАНСИИ</a>
+        </div>
     </div>
     <div class="tn-news-wrap tn-bg-wrap">
         <div class="tn-cnt-wrap">
@@ -236,6 +244,7 @@
     <div class="tn-clients-wrap tn-bg-wrap">
         <div class="tn-cnt-wrap">
             <div class="tn-clients-title-wrap">
+                <a name="clients"></a>
                 <h2 class="tn-section-header">Клиенты</h2>
             </div>
             <ul class="tn-clients">
@@ -258,7 +267,8 @@
         </div>
     </div>
     <footer class="tn-bg-wrap">
-        <div class="tn-cnt-wrap">
+        <a name="contacts"></a>
+        <div class="tn-cnt-wrap tn-cnt-footer-wrap">
             <div class="tn-copyright-address-wrap">ООО “Технологии надежности” © | 308009, Россия, г. Белгород, ул.
                 Костюкова, 46
             </div>
@@ -268,7 +278,8 @@
                     <span class="tn-contact-phone-part">800</span>
                     <span class="tn-contact-phone-part tn-contact-phone-part-bold">555-30-53</span>
                 </div>
-                <div class="tn-feedback-btn-wrap-footer tn-feedback-btn-wrap tn-btn-wrap"><a href="#" class="tn-feedback-btn tn-btn">ОБРАТНАЯ
+                <div class="tn-feedback-btn-wrap-footer tn-feedback-btn-wrap tn-btn-wrap"><a href="#"
+                                                                                             class="tn-feedback-btn tn-btn">ОБРАТНАЯ
                     СВЯЗЬ</a>
                 </div>
             </div>

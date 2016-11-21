@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    font-family: HelveticaNeueCyr;
+    font-family: 'Roboto';
 }
 
 ul {
@@ -15,11 +15,43 @@ ul {
 }
 
 .tn-topslider-wrap {
-    background-color: #9AC1EA;
+    background: linear-gradient(to bottom, #ffffff, #FFBF17);
+}
+
+.tn-topslider {
+    text-align: center;
+}
+
+.tn-topslider-pic {
+    max-width: 1920px;
+    width: 100%;
+}
+
+.tn-topslider-sel-wrap {
+    background-color: #FFBF17;
 }
 
 .tn-topslider-sel {
-    background-color: #FFBF17;
+    width: 70px;
+    margin: 0 auto;
+    height: 24px;
+    line-height: 20px;
+    list-style: disc outside;
+    font-size: 36px;
+    list-style: disc outside;
+}
+
+.tn-topslider-sel-el {
+    float: left;
+    color: #fdec9c;
+}
+
+.tn-topslider-sel-el-active {
+    color: #ffffff;
+}
+
+.tn-topslider-sel-el + .tn-topslider-sel-el {
+    margin-left: 20px;
 }
 
 .tn-bg-wrap {
@@ -28,7 +60,7 @@ ul {
 
 header {
     position: absolute;
-    top: 0;
+    top: 35px;
     height: 100px;
     color: #ffffff;
 }
@@ -43,24 +75,18 @@ header {
     line-height: 42px;
     text-align: center;
     border: solid;
-    border-width: 3px;
+    border-width: 4px;
+    border-color:#ffbf17 ;
 }
 
 .tn-btn {
     font-size: 16px;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .tn-feedback-btn, .tn-news-allnews-btn {
     color: #ffffff;
-}
-
-.tn-feedback-btn-wrap {
-    border-color:#ffbf17 ;
-}
-
-.tn-collective-vac-btn {
-    color: #3877C7;
 }
 
 .tn-services-wrap {
@@ -75,8 +101,6 @@ header {
 }
 
 .tn-science-wrap {
-    color: #ffffff;
-    background-color: #27628C;
 }
 
 .tn-cnt-wrap {
@@ -84,16 +108,8 @@ header {
     margin: 0 auto;
 }
 
-.tn-collective-photo-wrap {
-    text-align: center;
-}
-
-.tn-topslider-pic {
-    width: 100%;
-}
-
 .tn-menu-el-href {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
@@ -101,13 +117,13 @@ header {
 
 .tn-menu-el-href-active {
     cursor: default;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .tn-language {
     float: left;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .tn-language + .tn-language {
@@ -115,7 +131,7 @@ header {
 }
 
 .tn-language-active {
-    font-weight: 700;
+    font-weight: bold;
     cursor: default;
 }
 
@@ -135,11 +151,11 @@ header {
 
 .tn-contact-phone-part {
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .tn-contact-phone-part-bold {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .tn-contact-phone-part + .tn-contact-phone-part {
@@ -155,13 +171,14 @@ header {
 }
 
 .tn-about-wrap {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .tn-about-text {
     font-weight: 300;
     font-size: 18px;
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: justify;
     column-count: 2;
     column-gap: 120px;
@@ -183,6 +200,7 @@ header {
 }
 
 .tn-servicetype-logo-wrap {
+    height: 70px;
     margin-top: 35px;
     margin-bottom: 30px;
     text-align: center;
@@ -201,7 +219,7 @@ header {
 }
 
 .tn-header-contacts {
-    margin-left: 50px;
+    margin-left: 40px;
     margin-right: 45px;
 }
 
@@ -217,13 +235,14 @@ header {
 
 .tn-servicetype-more-href {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
     color: #ffffff;
 }
 
 .tn-servicetype-services {
     width: 300px;
+    height: 220px;
     margin: 30px auto 45px;
     padding-bottom: 30px;
     border-bottom: 1px solid #ffffff;
@@ -234,21 +253,38 @@ header {
 }
 
 .tn-servicetype-services-el {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 18px;
+}
+
+.tn-partners-title-wrap, .tn-clients-title-wrap {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tn-clients-wrap {
+    margin-bottom: 40px;
 }
 
 .tn-partners, .tn-clients {
     height: 200px;
     margin: 0 auto;
+    border-left: 4px solid #ffbf17;
+    border-right: 4px solid #ffbf17;
 }
 
 .tn-partners-el, .tn-clients-el {
     float: left;
 }
 
+.tn-partners-el + .tn-partners-el, .tn-clients-el + .tn-clients-el {
+    margin-left: 40px;
+}
+
 .tn-news-wrap {
     background-image: url(../pics/news.png);
+    background-size: 100%;
+    padding-bottom: 20px;
 }
 
 .tn-news-el {
@@ -263,9 +299,9 @@ header {
 
 .tn-news-el-href {
     font-size: 24px;
-    font-weight: 300;
     text-decoration: none;
     color: #0E2980;
+    font-weight: 500;
 }
 
 .tn-news-el-date {
@@ -277,16 +313,49 @@ header {
     color: #ffffff;
 }
 
-.tn-collective-title-wrap {
+.tn-collective-wrap {    background-color: #388CC8;
+    background: linear-gradient(to bottom, #388CC8, #6472a8);
+    height: 775px;
+    text-align: center;
+}
+
+.tn-collective-background-photo-wrap {
+    z-index: 1;
+}
+
+.tn-collective-background-photo-pic {
+    height: 775px;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.tn-collective-photo-wrap {
     position: relative;
-    top: 90px;
+    top: -836px;
+    z-index: 2;
+}
+
+.tn-collective-photo-pic {
+    height: 775px;
+}
+
+.tn-collective-title-wrap {
+    color: #ffffff;
+    position: relative;
+    top: -715px;
+    z-index: 3;
 }
 
 .tn-collective-vac-btn-wrap {
     position: relative;
     bottom: 100px;
     margin: 0 auto;
-    border-color: #3877C7;
+    z-index: 3;
+    top: -910px;
+}
+
+.tn-collective-vac-btn {
+    color: #3877C7;
 }
 
 .tn-section-header {
@@ -299,20 +368,10 @@ header {
     font-size: 30px;
 }
 
-.tn-collective-wrap {
-    height: 595px;
-    position: relative;
-    top: -52px;
-}
-
 .tn-news-title-wrap {
-    padding-top: 70px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     color: #ffffff;
-}
-
-.tn-news-el-href {
-    font-weight: bold;
 }
 
 .tn-news-el-href-wrap {
@@ -328,23 +387,24 @@ header {
 }
 
 .tn-news-allnews-btn-wrap {
-    margin: 50px auto 0;
-    border-color: #ffffff;
+    margin: 20px auto 0;
 }
 
-.tn-science-logo-title-wrap {
+.tn-science-wrap {
     text-align: center;
     margin-top: 25px;
     border: solid #ffffff 6px;
+    color: #ffffff;
 }
 
 .tn-science-logo-header-wrap {
     margin: 0 auto;
-    height: 67px;
+    width: 750px;
+    height: 78px;
 }
 
 .tn-science-title-wrap {
-    line-height: 67px;
+    line-height: 78px;
 }
 
 .tn-science-logo-wrap {
@@ -352,7 +412,8 @@ header {
 }
 
 .tn-science-activities-el:before {
-    content: "- ";
+    content: "-";
+    margin-right: 5px;
 }
 
 .tn-science-activities-el {
@@ -381,6 +442,7 @@ header {
 }
 
 footer {
+    line-height: 50px;
     height: 100px;
     background-color: #102A81;
 }
@@ -390,7 +452,6 @@ footer {
     font-weight: 100;
     color: #ffffff;
     float: left;
-    line-height: 40px;
     margin-right: 100px;
 }
 
@@ -400,10 +461,13 @@ footer {
 
 .tn-contact-phone-footer {
     float: left;
-    line-height: 40px;
     margin-right: 15px;
 }
 
 .tn-feedback-btn-wrap-footer {
     float: left;
+}
+
+.tn-cnt-footer-wrap {
+    padding-top: 25px;
 }
