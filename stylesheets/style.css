@@ -9,6 +9,10 @@ ul {
     list-style: none;
 }
 
+a:hover {
+    color: #ffbf17;
+}
+
 .tn-clear {
     clear: both;
     float: none;
@@ -41,11 +45,6 @@ ul {
     list-style: disc outside;
 }
 
-.tn-topslider-sel-el {
-    float: left;
-    color: #fdec9c;
-}
-
 .tn-topslider-sel-el-active {
     color: #ffffff;
 }
@@ -76,7 +75,12 @@ header {
     text-align: center;
     border: solid;
     border-width: 4px;
-    border-color:#ffbf17 ;
+    border-color:#ffffff;
+    cursor: pointer;
+}
+
+.tn-btn-wrap:hover {
+    border-color:#ffbf17;
 }
 
 .tn-btn {
@@ -98,9 +102,38 @@ header {
 .tn-servicetype {
     color: #ffffff;
     background-color: #27628C;
+    border: 6px solid #27628C;
     float: left;
-    width: 370px;
+    width: 358px;
     height: 570px;
+}
+
+.tn-servicetype:hover {
+    border-color: #ffbf17;
+}
+
+.rcm {
+    background-image: url(../pics/rcm.png);
+}
+
+.it {
+    background-image: url(../pics/it.png);
+}
+
+.one-c {
+    background-image: url(../pics/one-c.png);
+}
+
+.tn-servicetype:hover .rcm {
+    background-image: url(../pics/rcm-color.png);
+}
+
+.tn-servicetype:hover .it {
+    background-image: url(../pics/it-color.png);
+}
+
+.tn-servicetype:hover .one-c {
+    background-image: url(../pics/one-c-color.png);
 }
 
 .tn-cnt-wrap {
@@ -194,10 +227,17 @@ header {
 }
 
 .tn-servicetype-logo-wrap {
-    height: 70px;
-    margin-top: 35px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
+}
+
+.tn-servicetype-logo-pic{
+    margin: 0 auto;
+    height: 110px;
+    width: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .tn-servicetype-more-wrap {
@@ -270,10 +310,93 @@ header {
 
 .tn-partners-el, .tn-clients-el {
     float: left;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
 }
 
 .tn-partners-el + .tn-partners-el, .tn-clients-el + .tn-clients-el {
     margin-left: 40px;
+}
+
+.hc {
+    background-image: url(../pics/hc.png);
+}
+
+.bstu {
+    background-image: url(../pics/bstu.png);
+}
+
+.bgu {
+    background-image: url(../pics/bgu.png);
+}
+
+.mondi {
+    background-image: url(../pics/mondi.png);
+}
+
+.ibm {
+    background-image: url(../pics/ibm.png);
+}
+
+.rgd {
+    background-image: url(../pics/rgd.png);
+}
+
+.sng {
+    background-image: url(../pics/sng.png);
+}
+
+.ural {
+    background-image: url(../pics/ural.png);
+}
+
+.sber {
+    background-image: url(../pics/sber.png);
+}
+
+.eagle {
+    background-image: url(../pics/eagle.png);
+}
+
+.hc:hover {
+    background-image: url(../pics/hc-color.png);
+}
+
+.bstu:hover {
+    background-image: url(../pics/bstu-color.png);
+}
+
+.bgu:hover {
+    background-image: url(../pics/bgu-color.png);
+}
+
+.mondi:hover {
+    background-image: url(../pics/mondi-color.png);
+}
+
+.ibm:hover {
+    background-image: url(../pics/ibm-color.png);
+}
+
+.rgd:hover {
+    background-image: url(../pics/rgd-color.png);
+}
+
+.sng:hover {
+    background-image: url(../pics/sng-color.png);
+}
+
+.ural:hover {
+    background-image: url(../pics/ural-color.png);
+}
+
+.sber:hover {
+    background-image: url(../pics/sber-color.png);
+}
+
+.eagle:hover {
+    background-image: url(../pics/eagle-color.png);
 }
 
 .tn-news-wrap {
@@ -347,6 +470,7 @@ header {
     margin: 0 auto;
     z-index: 3;
     top: -910px;
+    border-color: #3877C7;;
 }
 
 .tn-collective-vac-btn {
@@ -390,6 +514,11 @@ header {
     margin-top: 25px;
     border: solid #ffffff 6px;
     color: #ffffff;
+    cursor: pointer;
+}
+
+.tn-science-wrap:hover {
+    border-color: #FFBF17;
 }
 
 .tn-science-logo-header-wrap {
